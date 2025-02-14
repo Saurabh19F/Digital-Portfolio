@@ -1293,6 +1293,7 @@
         }).then(response => {
             alert("Email sent successfully!");
             console.log("Success:", response);
+          document.getElementById("contact-form").reset(); 
         }).catch(error => {
             alert("Error sending email.");
             console.error("Error:", error);

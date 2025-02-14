@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/professional-portfolio.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Saurabh Kumar">Saurabh Kumar</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">saurabhke4@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91752586XXXX</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">Febuary 19, </time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Varanasi</address>
+              <address>Uttar Pradesh, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/saurabh19f/" class="social-link">
+              <ion-icon class="socials-icons" name="logo-Linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Saurabh19F" class="social-link">
+              <ion-icon class="socials-icons" name="logo-Github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/Saurabh19F/" class="social-link">
+              <ion-icon class="socials-icons" name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/saurabhke4" class="social-link">
+              <ion-icon class="socials-icons" name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/the_nerd_saurabh/" class="social-link">
+              <ion-icon class="socials-icons" name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m a passionate web and mobile application developer, currently pursuing my MCA at Galgotias University. I
+            thrive in creating innovative, user-friendly digital solutions, whether it's building sleek websites,
+            crafting seamless mobile apps, or diving deep into backend systems and databases. I also diving into
+            cybersecurity with a final-year project on Graphical Passwords using Image Segmentation and I have published
+            a research paper on Graphical Password Systems using Image Segmentation.. With a love for technology and
+            creativity, I’ve worked on a range of projects—from portfolio websites to complex RESTful APIs—always aiming
+            to learn, improve, and push boundaries.
+          </p>
+
+          <p>
+            Beyond coding, I’m a traveler at heart, always seeking inspiration from new places and experiences. I enjoy
+            capturing the world through photography, finding beauty in details that others might miss. My curiosity also
+            drives me to explore the art of cooking, discovering flavors and someone who enjoys storytelling through
+            vlogs—especially in Hindi.
+          </p>
+
+          <p>
+            In every aspect of my life, whether it’s developing software or enjoying my hobbies, I’m all about growth,
+            creativity, and impact.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-web-development-100.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Web development is more than just code; it's a blend of creativity and logic. Crafting user-friendly
+                  interfaces and designing intuitive systems excites me. I love how web development constantly evolves,
+                  keeping me challenged and pushing me to grow while enabling me to create impactful digital
+                  experiences.
+                </p>
+              </div>
+
+            </li>
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-mobile-app-development-100 (1).png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile App Development</h4>
+
+                <p class="service-item-text">
+                  <span> Mobile app development is like building a companion for everyday life. I enjoy creating
+                    seamless,
+                    intuitive apps that enhance user experiences. The idea that something I develop can sit in someone’s
+                    pocket, helping them in their daily routine, is incredibly rewarding and motivates me to innovate
+                    further.</span>
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-cyber-security-100.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cybersecurity & Image Processing</h4>
+
+                <p class="service-item-text">
+                  <span>
+                    I focus on cybersecurity, specializing in Graphical Password Systems using Image
+                    Segmentation to enhance authentication security. My work explores secure login mechanisms, image
+                    processing techniques, and segmentation algorithms to prevent unauthorized access. I aim to develop
+                    user-friendly, innovative security solutions that strengthen authentication while maintaining
+                    ease of use.
+                  </span>
+                </p>
+              </div>
+
+            </li>
+
+
+
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-case-study-100.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Research Paper</h4>
+
+                <p class="service-item-text">
+                  My research paper explores a Graphical Password System using Image Segmentation to enhance
+                  authentication security. By dividing images into segments for user selection, it offers a secure
+                  alternative to traditional passwords. The study focuses on image processing, segmentation algorithms,
+                  and security measures to create a user-friendly and robust authentication system.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="hobby">
+
+          <h3 class="h3 hobby-title">Hobbies</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Traveling" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Traveling</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>"I collect stories, conquer horizons, and leave footprints across the world!" ✈️🌍</p>
+                  <p>
+                    Exploring new places gives me a sense of adventure and freedom. I love experiencing different
+                    cultures, meeting new people, and capturing breathtaking landscapes. Every journey teaches me
+                    something new and adds to my perspective. Traveling is not just a hobby; it’s a way of life!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Thinking & Observing" width="60"
+                    data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Thinking & Observing</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p> "I decode, analyze, and outthink the ordinary!" 🧠👀</p>
+                  <p>
+                    I enjoy analyzing situations, patterns, and human behavior. My mind is always questioning things and
+                    finding deeper meanings in everyday moments. Observation helps me understand the world better and
+                    sparks new ideas. Thinking deeply is not just a habit—it’s a way to grow!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Photography" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Photography</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <P>"I freeze time, frame emotions, and turn moments into masterpieces!" 📸✨</P>
+                  <p>
+                    Every picture tells a story, and I love capturing emotions through my lens. Whether it’s landscapes,
+                    portraits, or candid moments, I aim to make them timeless. Photography allows me to express my
+                    creativity in a way words cannot. A single shot can hold a thousand memories!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Guitar & Music" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Guitar & Music</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>"I make strings sing, hearts race, and souls vibe to my rhythm!" 🎸🔥 </p>
+                  <p>
+                    As a lead guitarist, I love shredding solos and experimenting with melodies. Music is my way of
+                    expressing emotions beyond words, a universal language that connects people. Whether it’s rock,
+                    blues, or acoustic tunes, I enjoy exploring different styles. Playing guitar is not just a
+                    skill—it’s a passion that fuels my soul!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-5.png" alt="Gaming" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Gaming</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>"I strategize, dominate, and turn every battlefield into my playground!" 🎮🔥 </p>
+                  <p>
+                    I love the thrill of combat games like Call of Duty and Assassin’s Creed. The mix of strategy, fast
+                    reflexes, and immersive storylines keeps me hooked. Whether it’s an intense multiplayer battle or a
+                    gripping single-player campaign, gaming is my escape. It’s not just about winning—it’s about the
+                    experience!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-6.png" alt="Vlogging" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Vlogging</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>"I capture moments, craft stories, and make memories live forever!" 📹🎤</p>
+                  <p>
+                    I enjoy capturing my travel experiences and sharing them through Hindi vlogs. Every video is a mix
+                    of adventure, storytelling, and creativity. I believe vlogging makes moments last forever and helps
+                    others see the world through my lens. It's my way of bringing my journeys to life! And I do Shooting
+                    vlogs in Hindi, currently planning one on
+                    the Chopta-Tungnath-Chandrashila trek.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-7.png" alt="Cooking" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Cooking</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <P>"I create flavors, craft experiences, and turn every meal into a masterpiece!" 🍳👨‍🍳</P>
+                  <p>
+                    Cooking allows me to experiment with different flavors and create something unique. I love trying
+                    new recipes and adding my personal touch to every dish. The joy of making food that others enjoy is
+                    truly satisfying. Cooking is both an art and a science, and I love every bit of it!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+
+
+
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Traveling</h4>
+              <time datetime=""></time>
+
+
+              <div data-modal-text>
+                <p>
+
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+
+
+
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Certificates</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/1.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/2.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/3.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/4.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/5.jpg" alt="client logo">
+              </a>
+            </li>
+
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/9.jpg" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Letter of Recommendations</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/6.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/7.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/8.jpg" alt="client logo">
+              </a>
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+      - #RESUME
+
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Galgotias University</h4>
+
+              <span>2023 — 2025</span>
+
+              <p class="timeline-text">
+                Pursuing Master of Computer Applications at Galgotias University (2023-2025), focusing on full-stack
+                development. Passionate about technology and coding..
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mahatma Gandhi Kashi Vidyapeeth</h4>
+
+              <span>2019 — 2020</span>
+
+              <p class="timeline-text">
+                Completed Bachelor of Computer Applications from Mahatma Gandhi Kashi Vidyapeeth. Gained a strong
+                foundation in computer
+                applications and programming. Passionate about technology and continuous learning.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Children's Academy School</h4>
+
+              <span>2017 — 2019</span>
+
+              <p class="timeline-text">
+                Completed Class 12 from Children's Academy in 2019, building a strong foundation in academics and
+                technology.
+                eos.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Professional Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Full-Stack Development Intern at Prodigy Infotech</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                Developed web applications and gained expertise in frontend and backend technologies. (Received Letter
+                of Recommendation & Certificate)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Full-Stack Development from MyCaptain</h4>
+
+              <span>2024 — 2025</span>
+
+              <p class="timeline-text">
+                I completed a Full-Stack Development from MyCaptain, which enhanced your skills in frontend and
+                backend technologies. (Received Letter of Recommendation, Letter of Appreciation & Competency
+                Certificate)
+              </p>
+            </li>
+          </ol>
+
+        </section>
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Projects & Practical Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graphical Password by Image Segmentation</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                Graphical Password System (Final Year Project) – Researching and developing a secure authentication
+                system using image segmentation.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Portfolio Web & Mobile App</h4>
+
+              <span>2024 — 2025</span>
+
+              <p class="timeline-text">
+                Portfolio Web & Mobile Apps – Built a personal portfolio showcasing skills, projects, and achievements
+                using Java (Android) and web technologies.
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mini Sales CRM System</h4>
+
+              <span>2024 — 2025</span>
+
+              <p class="timeline-text">
+                Mini Sales CRM System – Developed a lead management system with contact tracking and sales status
+                updates.
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Hand Gesture Recognition System</h4>
+
+              <span>2024 — 2025</span>
+
+              <p class="timeline-text">
+              Developed a Hand Gesture Recognition System using Python, OpenCV, and MediaPipe, enabling real-time hand
+              tracking and gesture classification.
+              </p>
+              
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Restaurant Menu Page</h4>
+
+              <span>2024 — 2025</span>
+
+              <p class="timeline-text">
+              Restaurant Menu Page – Designed a visually appealing and interactive digital menu.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Travel Agency Web App</h4>
+
+              <span>2024 — 2025</span>
+
+              <p class="timeline-text">
+              Travel Agency Web App – Built a travel booking platform similar to Thrillophilia.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Technical Skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Frontend Development: HTML, CSS, JavaScript, AngularJS</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"> Backend Development: Node.js, Express, Flask, Django</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Databases: MongoDB, MySQL</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Mobile App Development: Java, Android Studio</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Full-Stack Development</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">RESTful APIs & CRUD Operations</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Sorting Algorithms & Time Complexity Analysis (Java)</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Authentication & Security (Graphical Password System)</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Design & UI/UX (Colorful, Animated, Aesthetic Designs)</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title"><Br>Tools & Technologies</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Git & GitHub</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"> Postman</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Firebase</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Cloud Deployment (Netlify, Vercel, Heroku and Render)</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Full-Stack Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Android Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Full-Stack Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item> Android Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="full-stack development">
+              <a href="https://image-segmentation-nntk.onrender.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pp4.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">PicPass</h3>
+
+                <p class="project-category">Full-Stack Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://saurabh19f.github.io/Restaurant-Landing-Page/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pp3.jpg" alt="The Buzz & Barrel" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">The Buzz & Barrel</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pp1.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Wanderlust</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="android applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pp9.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfolio App</h3>
+
+                <p class="project-category">Android Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="full-stack development">
+              <a href="https://saurabh19f.github.io/Weather-Forecast/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pp7.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Weather Forecast: API</h3>
+
+                <p class="project-category">Full-Stack Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="android applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pp2.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Student Database App</h3>
+
+                <p class="project-category">Android Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="full-stack development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pp8.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Hand Gesture Recognition</h3>
+
+                <p class="project-category">Full-Stack Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="android applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pp6.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Quiz App</h3>
+
+                <p class="project-category">Android Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://saurabh19f.github.io/Stopwatch/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pp5.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Stopwatch</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115408.22405537314!2d82.99110895!3d25.32076265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2db76febcf4d%3A0x68131710853ff0b5!2sVaranasi%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1728184411813!5m2!1sen!2sin"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
